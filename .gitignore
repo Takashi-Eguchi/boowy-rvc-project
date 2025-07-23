@@ -1,0 +1,30 @@
+# 仮想環境・設定
+rvc_py310/
+venv/
+.env
+*.env
+
+# 音声データ・データセット
+rvc_model/dataset/
+*.wav
+*.mp3
+*.flac
+
+# モデルファイル・キャッシュ・ログ
+logs/
+weights/
+assets/
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+*.log
+
+# 推論出力や一時生成ファイル
+output/
+converted/
+results/
+
+# Mac特有ファイル
+.DS_Store
