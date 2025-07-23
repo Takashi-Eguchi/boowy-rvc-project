@@ -16,7 +16,7 @@ echo "🔁 Starting inference..." | tee "$LOGFILE"
 echo "Input : $INPUT" | tee -a "$LOGFILE"
 echo "Output: $OUTPUT" | tee -a "$LOGFILE"
 
-PYTHONPATH=. python3 infer_offline.py \
+PYTHONPATH=. python3 Retrieval-based-Voice-Conversion-WebUI/infer_offline.py \
   --model_path weights/boowy_himuro.pth \
   --config_path configs/boowy_himuro.json \
   --input_path "$INPUT" \
